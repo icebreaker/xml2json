@@ -20,4 +20,4 @@ if (!$xml)
 	print_output(array('error' => 'Could not parse XML'));
 }
 
-header(iterator_to_array($xml), "202 Accepted");
+print_output(iterator_to_array($xml), "202 Accepted");
